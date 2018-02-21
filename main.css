@@ -111,5 +111,32 @@ aside{
     display: flex;
     flex-direction: column;
     background: rgb(102, 95, 105);
+}
+/* ===============
+    Styles
+   =============== */
+/* Wrapper */
 
+.views{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    width: 85%;
+    color: #8A8A8A;
+    font-size: 0.9em;
+
+}
+/* #views{
+    margin-right: 20%;
+} */
+.views a{
+    
+    margin: 5px;
+    padding: 5px;
+    color: #A0A0A0;
+    text-decoration-line: none;
+}
+.views a:hover{
+    color: rgb(129, 129, 129);
 }
