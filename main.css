@@ -1,15 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
+   
 }
 /* ===============
     Navbar
    =============== */
 nav{
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0; */
-    
+      
     color:#A0A0A0;
     height: 56px;
     border-bottom: 1px solid #F9F9F9
@@ -85,6 +82,8 @@ button:hover{
    =============== */
 
 .container{
+    max-width: 1280px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -92,12 +91,19 @@ button:hover{
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
+    
     align-items: flex-start;
 }
-figure{
-    background: rgb(150, 51, 150);
+iframe{
+    align-self: center;
+    margin: 10px 30px;
+   
+}
+figcaption{
+    margin-left: 30px;
 }
 .description{
+    align-self: center;
     background: darksalmon;
 }
 aside{
